@@ -71,6 +71,16 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\ResultLibrary\ResultDomain\ResultDomain.csproj">
+      <Project>{fb7b7597-66c4-4e1c-9788-0524ef8a6123}</Project>
+      <Name>ResultDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\ResultLibrary\ResultLibrary\ResultLibrary.csproj">
+      <Project>{8d2757ed-2bf3-4dbc-bde5-e7411c243b21}</Project>
+      <Name>ResultLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
